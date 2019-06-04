@@ -3390,20 +3390,20 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			opacity: 1;
-			margin: 0 0 1.3em 0;
+			margin: 0 0 0 0;
 			display: inline-block
 		}
 
 			#banner .logo .icon {
 				border-radius: 100%;
-				border: solid 2px rgba(255, 255, 255, 0.125);
+				border: solid 2px rgba(255, 255, 255, 1);
 				cursor: default;
 				display: inline-block;
 				font-size: 2em;
-				height: 2.25em;
-				line-height: 2.25em;
+				height: 3em;
+				line-height: 3em;
 				text-align: center;
-				width: 2.25em;
+				width: 3em;
 				margin-right: 25px
 			}
 
@@ -3456,6 +3456,14 @@ input, select, textarea {
 			line-height: 2;
 			text-transform: uppercase;
 		}
+
+		/* #banner #app-logo {
+			height: 2.25em;
+			width: 2.25em;
+			border-radius: 50%;
+			border: 2px solid white;
+			margin: 0;
+		} */
 
 		@media screen and (max-width: 1280px) {
 
